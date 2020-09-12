@@ -3,3 +3,10 @@ Mathematics for Machine Learning: free PDF - https://mml-book.github.io/
 Is Odds and log odds are always preferable than probability in logistic regression?
 
 Why should the Error terms be independent of each other (Linear Regression Assumption) [https://statisticsbyjim.com/regression/ols-linear-regression-assumptions/]
+
+What is conditional Maximum likelihood Estimation (MLE)?
+
+When EDA is done and data is divided into test and train with random state. Can we have biased data set.
+
+Encoding techniques for converting categorical variables to numerical. [https://dzone.com/articles/handling-character-data-for-machine-learning]
+

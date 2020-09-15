@@ -1,0 +1,8 @@
+Predictions made by a decision tree are easily interpretable.
+A decision tree is versatile in nature. It does not assume anything specific about the nature of the attributes in a data set. 
+It can seamlessly handle all kinds of data such as numeric, categorical, strings, Boolean, etc.
+A decision tree is scale-invariant. It does not require normalisation, as it only has to compare the values within an attribute, and it handles multicollinearity better.
+Decision trees often give us an idea of the relative importance of the explanatory attributes that are used for prediction.
+They are highly efficient and fast algorithms.
+They can identify complex relationships and work well in certain cases where you cannot fit a single linear relationship between the target and feature variables. 
+This is where regression with decision trees comes into the picture.

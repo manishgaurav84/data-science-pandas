@@ -5,3 +5,47 @@ https://stats.stackexchange.com/questions/321687/how-is-bagging-different-from-c
 https://archive.siam.org/meetings/sdm10/tutorial4.pdf
 
 https://towardsdatascience.com/fine-tuning-a-classifier-in-scikit-learn-66e048c21e65
+
+
+
+
+To Know - Random forest Vs Decision Tree .
+As is implied by the names "Tree" and "Forest,"  below are the typical differences:
+
+1. Random Forest is essentially a collection of Decision Trees. However, tree is a stand alone classifier model 
+
+2. Decision tree is built on an entire dataset, using all the features/variables of interest, whereas a random forest randomly selects observations/rows and specific features/variables to build multiple decision trees from and then averages the results.
+
+3. Large number of trees are built using this method, each tree "votes" or chooses the class, and the class receiving the most votes by a simple majority is the "winner" or predicted class. Random forest built on top of trees to maintain diversity.
+
+rfc_vs_dt1 - Analytics Vidhya
+Decision Tree:
+
+Decision Tree is a frequency-based algorithm which can be used for both regressions as well as classification problems. 
+Regression trees are used when the dependent variable is a continuous variable
+classification trees are used when the dependent variable is categorical variable.
+Decision tree uses criteria based on the entropy or information gain (or any other metric for predictive gain) to decide to split the node into further sub-nodes.
+Regression tree, the average outcome of a child node is selected as the prediction whereas in case of classification trees the majority class is selected from child node as the final prediction.
+Advantages of decision trees:
+
+1. Easy to interpret and make for straightforward visualizations.
+2. Can handle both numerical and categorical data.
+3. Perform well on large datasets
+4. Are extremely fast
+
+Random Forest:
+
+Random Forest is combination of number of decision trees and it works on Bagging concept which is nothing but bootstrap aggregating. 
+Random Forest combines trees and works as an ensemble model. 
+N different trees are formed using sampling technique with replacement where the samples are drawn from main data set and these n trees work in parallel to give you the prediction. The prediction from each tree is taken and the output of Random Forest is the average of n trees prediction.
+Advantages of Random Forest: Random forest helps in reducing the variance by averaging out several trees prediction which in turn reduces overfitting.
+
+Diversity: Diversity arises because each tree is created with a subset of the attributes/features/variables.
+Stability: Stability arises because the answers given by a large number of trees average out. A random forest has a lower model variance than an ordinary individual tree.
+Immunity to the curse of dimensionality: Since each tree does not consider all the features, the feature space.
+Parallelization: You need a number of trees to make a forest. 
+How different from Gradient Boosting:
+
+Decision is a simple, decision making-diagram.
+Random forests are a large number of trees, combined (using averages or "majotree rity rules") at the end of the process.
+Gradient boosting machines also combine decision trees, but start the combining process at the beginning, instead of at the end.
